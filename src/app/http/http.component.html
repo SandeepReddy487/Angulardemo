@@ -1,0 +1,21 @@
+ 
+ <h1 style="text-align: center; color: orangered;">HTTP Using Get Method</h1>
+ <table border="4">
+    <thead class="thead-dark">
+        <tr>
+        <th>Id</th>
+        <th>userId</th>
+        <th>Title</th>
+        <th>BODY</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor = 'let user of getData'>
+        <td>{{user.id}}</td>
+        <td>{{user.userId}}</td>
+        <td>{{user.title}}</td>
+        <td>{{user.body}}</td>
+
+    </tr>
+    </tbody>
+</table> 

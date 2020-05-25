@@ -1,0 +1,19 @@
+<div class="container">
+<form [formGroup]="employeeForm" (ngSubmit) = "onSubmit()">
+    <div class="form-group col-sm">
+        <label for="name">First Name</label>
+        <input type="text" name="" id="fname" formControlName = "fname" class="form-control">
+        </div>
+        <div class="form-group col-sm">
+            <label for="age">Last Name</label>
+            <input type="text" name="" id="lname" formControlName = "lname" class="form-control">
+            </div>
+            <div class="form-group col-sm">
+                <label for="pnumber">Phone Number</label>
+                <input type="text" name="" id="pnumber" formControlName = "pnumber" class="form-control">
+                </div>
+            <div>
+                <button class="btn btn-primary" type="Submit">SAVE</button>
+            </div>
+</form> 
+ </div>
